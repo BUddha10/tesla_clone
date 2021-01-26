@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  margin: 15px;
+  z-index: 100;
+}
+
+.header_logo {
+  height: 15px;
+  width: 100px;
+}
+.header_center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header_center > p {
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+.header_right {
+  display: flex;
+  margin-right: 40px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header_right > p {
+  padding-right: 20px;
+  text-transform: uppercase;
+}
